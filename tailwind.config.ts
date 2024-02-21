@@ -7,7 +7,10 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: { colors: { primary: "#0070f3" } },
+    extend: {
+      colors: { primary: "#0070f3", b3f06e: "#b3f06e" },
+      maxWidth: { 125: "125%" },
+    },
     container: {
       center: true,
       padding: {

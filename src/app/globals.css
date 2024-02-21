@@ -4,6 +4,14 @@
 
 @layer utilities {
   .bg-navbar {
-    @apply bg-gradient-to-l from-green-900 via-green-800 to-green-900;
+    @apply bg-gradient-to-r from-green-900  via-green-800 to-green-500;
+  }
+  .btn-primary {
+    @apply rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-white
+	transition-colors duration-300 hover:bg-primary/80;
+  }
+  .btn-outline {
+    @apply rounded-md border-2 border-white px-4 py-2 text-sm text-white
+	transition-colors duration-300;
   }
 }
