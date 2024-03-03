@@ -20,7 +20,7 @@ const Hero = () => {
             </div>
           </div>
           {/* Contenedor para la Imagen */}
-          <div className="">
+          <div className="mx-auto p-8">
             <img
               src="/home-page-img/hero.svg"
               alt="hero image"
