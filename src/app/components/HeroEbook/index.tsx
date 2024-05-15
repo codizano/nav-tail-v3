@@ -1,9 +1,9 @@
 import React from "react";
 
-const Hero2 = () => {
+const Hero = () => {
   return (
     <>
-      <section className="container mb-10 py-8">
+      <section className="container py-5">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 text-black">
           {/* Contenedor Para el Texto */}
           <div className="flex flex-col items-center text-center gap-4 md:items-start md:text-left">
@@ -33,4 +33,4 @@ const Hero2 = () => {
   );
 };
 
-export default Hero2;
+export default Hero;

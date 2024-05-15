@@ -58,7 +58,7 @@ const EmailForm: React.FC<Props> = () => {
   };
 
   return (
-    <section className="bg-stone-100 py-20 text-center">
+    <section className="py-20 text-center">
       <div className="container mx-auto px-5 max-w-screen-md">
         <h2 className="mb-6 font-bold text-3xl text-black capitalize tracking-widest">
           Obtén una muestra gratuita del libro
