@@ -14,11 +14,11 @@ const Navbar = () => {
       <header className="relative z-[99]  text-black">
         <nav className="container flex items-center justify-between h-[70px] py-2">
           {/* Sección Logo */}
-          <div className="flex gap-2 text-2xl md:text-3xl text-black">
-            <Image src="/icons/sun.svg" alt="sun" width={28} height={28} />
+          <div className="flex gap-2 text-2xl font-bold md:text-3xl text-black">
+            <Image src="/icons/book.svg" alt="sun" width={30} height={30} />
             <a href="#">
-              YOU
-              <span className="inline-block font-bold text-primary">WEB</span>
+              CODI
+              <span className="inline-block font-bold text-primary">ZANO</span>
             </a>
           </div>
           {/* 1. Sección Móvil */}

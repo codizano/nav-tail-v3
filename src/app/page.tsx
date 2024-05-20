@@ -1,7 +1,9 @@
 /* "use client";
 import { QueryClient, QueryClientProvider } from "react-query"; */
-import Hero from "@components/HeroEbook2";
+
 import Navbar from "@components/NavbarEbook";
+import Hero from "@components/HeroEbook2";
+import Services from "@components/Services";
 import Blogs from "@components/Blog";
 import Footer from "@components/Footer";
 import EmailForm from "@components/EmailForm";
@@ -13,6 +15,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
+      <Services />
       <Blogs />
       <EmailForm />
       <Footer />
