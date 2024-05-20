@@ -8,6 +8,7 @@ const Navbar = () => {
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
+
   return (
     <>
       <header className="relative z-[99]  text-black">
