@@ -9,7 +9,11 @@ const Services = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
         <div className="bg-white rounded-lg shadow-md p-6">
-          <i className="fas fa-code text-3xl text-blue-500 mb-4"></i>
+          <img
+            className="mb-1"
+            src="/services-img/javascript.svg"
+            alt="image"
+          />
           <h3 className="text-lg font-bold mb-2">Desarrollo web</h3>
           <p className="text-gray-600">
             Creamos sitios web personalizados y optimizados para dispositivos
@@ -18,7 +22,8 @@ const Services = () => {
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6">
-          <i className="fas fa-mobile-alt text-3xl text-green-500 mb-4"></i>
+          <img className="mb-1" src="/services-img/react.svg" alt="image" />
+
           <h3 className="text-lg font-bold mb-2">
             Desarrollo de aplicaciones móviles
           </h3>
