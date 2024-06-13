@@ -4,7 +4,7 @@ import { QueryClient, QueryClientProvider } from "react-query"; */
 import Navbar from "@components/NavbarEbook";
 import Hero from "@components/HeroEbook2";
 import Services from "@components/Services";
-import Blogs from "@components/Blog";
+//import Blogs from "@components/Blog";
 import Footer from "@components/Footer";
 import EmailForm from "@components/EmailForm";
 import TargetAudience from "@components/TargetAudience";
@@ -20,7 +20,7 @@ export default function Home() {
       <Services />
       <ProductFeatures />
       <TargetAudience />
-      <Blogs />
+      {/*  <Blogs /> */}
       <EmailForm />
       <Footer />
     </div>

@@ -70,7 +70,7 @@ const EmailForm: React.FC<Props> = () => {
         </p>
         <form
           onSubmit={handleSubmit}
-          className="w-full md:w-1/2  lg:w-3/4 mx-auto bg-blue-500 text-white p-4 rounded shadow hover:bg-blue-700  transition duration-500 ease-in-out"
+          className="w-full md:w-1/2  lg:w-3/4 mx-auto bg-[#ed6524] text-white p-4 rounded shadow hover:bg-orange-500  transition duration-500 ease-in-out"
         >
           <input
             type="email"
