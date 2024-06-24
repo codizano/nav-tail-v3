@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -32,21 +32,22 @@ const Footer = () => {
             </div>
           </div> */}
         <div className="flex justify-center mt-8 space-x-6">
-          <a href="#" className="text-white hover:text-stone-300">
+          {/*    <a href="#" className="text-white hover:text-stone-300">
             <FaFacebookF />
           </a>
           <a href="#" className="text-white hover:text-stone-300">
             <FaInstagram />
           </a>
+          */}
           <a href="#" className="text-white hover:text-stone-300">
-            <FaTwitter />
+            <FaLinkedin />
           </a>
           <a href="#" className="text-white hover:text-stone-300">
             <FaGithub />
           </a>
         </div>
         <p className="mt-8 text-base leading-6 text-center text-white">
-          © 2021 YouWeb, Inc. All rights reserved.
+          © 2024 CodiZano, Inc. All rights reserved.
         </p>
       </div>
     </footer>

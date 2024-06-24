@@ -65,8 +65,8 @@ const EmailForm: React.FC<Props> = () => {
         </h2>
         <p className="text-base leading-relaxed mb-8 text-black text-center">
           Inscribe tu correo electrónico para obtener una copia gratuita de
-          nuestro libro revolucionario. Aprenderás conceptos claves y técnicas
-          innovadoras que te ayudarán a superar los desafíos actuales.
+          nuestro libro. Aprenderás conceptos claves y técnicas innovadoras que
+          te ayudarán.
         </p>
         <form
           onSubmit={handleSubmit}
