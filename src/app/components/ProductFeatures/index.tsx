@@ -26,7 +26,7 @@ const ProductFeatures = () => {
                 height={24}
               />
               <div className="ml-2">
-                <h5 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl font-bold mb-1 text-left">
+                <h5 className="text-base xl:text-2xl font-bold mb-1 text-left">
                   Código Fuente Incluido para Fácil Uso
                 </h5>
               </div>
@@ -40,7 +40,7 @@ const ProductFeatures = () => {
                 height={24}
               />
               <div className="ml-2">
-                <h5 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl font-bold mb-1 text-left">
+                <h5 className="text-base xl:text-2xl font-bold mb-1 text-left">
                   Acceso al Proyecto entero en Github
                 </h5>
               </div>
@@ -54,7 +54,7 @@ const ProductFeatures = () => {
                 height={24}
               />
               <div className="ml-2">
-                <h5 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl font-bold mb-1 text-left">
+                <h5 className="text-base xl:text-2xl font-bold mb-1 text-left">
                   Descripción de las Clases Tailwind
                 </h5>
               </div>
@@ -68,7 +68,7 @@ const ProductFeatures = () => {
                 height={24}
               />
               <div className="ml-2">
-                <h5 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl font-bold mb-1 text-left">
+                <h5 className="text-base xl:text-2xl font-bold mb-1 text-left">
                   Instalación de Sanity CMS
                 </h5>
               </div>
@@ -82,7 +82,7 @@ const ProductFeatures = () => {
                 height={24}
               />
               <div className="ml-2">
-                <h5 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl font-bold mb-1 text-left">
+                <h5 className="text-base xl:text-2xl font-bold mb-1 text-left">
                   Instalación de Next.js
                 </h5>
               </div>
@@ -96,7 +96,7 @@ const ProductFeatures = () => {
                 height={24}
               />
               <div className="ml-2">
-                <h5 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl font-bold mb-1 text-left">
+                <h5 className="text-base xl:text-2xl font-bold mb-1 text-left">
                   Fragmentos de Código con gits
                 </h5>
               </div>
@@ -110,7 +110,7 @@ const ProductFeatures = () => {
                 height={24}
               />
               <div className="ml-2">
-                <h5 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl font-bold mb-1 text-left">
+                <h5 className="text-base xl:text-2xl font-bold mb-1 text-left">
                   Utilización de Componentes de React
                 </h5>
               </div>
@@ -124,7 +124,7 @@ const ProductFeatures = () => {
                 height={24}
               />
               <div className="ml-2">
-                <h5 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl font-bold mb-1 text-left">
+                <h5 className="text-base xl:text-2xl font-bold mb-1 text-left">
                   Integración de Sanity Studio con Next.js
                 </h5>
               </div>
@@ -138,7 +138,7 @@ const ProductFeatures = () => {
                 height={24}
               />
               <div className="ml-2">
-                <h5 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl font-bold mb-1 text-left">
+                <h5 className="text-base xl:text-2xl font-bold mb-1 text-left">
                   Revalidación de Caché en Next.js
                 </h5>
               </div>

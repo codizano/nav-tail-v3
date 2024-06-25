@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTelegram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -32,17 +32,31 @@ const Footer = () => {
             </div>
           </div> */}
         <div className="flex justify-center mt-8 space-x-6">
-          {/*    <a href="#" className="text-white hover:text-stone-300">
-            <FaFacebookF />
+          <a
+            href="https://t.me/ricardootalora"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-stone-300 transition duration-300 ease-in-out"
+          >
+            <FaTelegram />
           </a>
-          <a href="#" className="text-white hover:text-stone-300">
-            <FaInstagram />
+
+          <a
+            href="https://wa.me/573133741678?text=Hola%2C+quiero+más+información+sobre+sus+servicios"
+            className="text-white hover:text-stone-300"
+          >
+            <FaWhatsapp />
           </a>
-          */}
-          <a href="#" className="text-white hover:text-stone-300">
+          <a
+            href="https://www.linkedin.com/in/ricardo-otalora-luna"
+            className="text-white hover:text-stone-300"
+          >
             <FaLinkedin />
           </a>
-          <a href="#" className="text-white hover:text-stone-300">
+          <a
+            href="https://github.com/codizano"
+            className="text-white hover:text-stone-300"
+          >
             <FaGithub />
           </a>
         </div>
