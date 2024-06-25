@@ -89,7 +89,7 @@ const EmailForm: React.FC<Props> = () => {
             className="py-2 w-full  h-[56px] border border-slate-400 rounded  px-4 bg-white text-black text-center"
           />
           <button type="submit" disabled={state.isLoading}>
-            {state.isLoading ? "Sending..." : "Enviar"}
+            {state.isLoading ? "Enviando..." : "Enviar"}
           </button>
         </form>
         {state.errorMessage && (
