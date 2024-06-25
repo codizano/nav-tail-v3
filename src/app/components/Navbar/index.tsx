@@ -2,7 +2,7 @@
 import React, { useState } from "react"; // 2. Importar useState
 import Image from "next/image";
 import ResponsiveMenu from "./ResponsiveMenu";
-export const Navbar = () => {
+const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false); // 3. useState
   //4. función toggleMenu
   const toggleMenu = () => {
@@ -72,3 +72,5 @@ export const Navbar = () => {
     </>
   );
 };
+
+export default Navbar;
