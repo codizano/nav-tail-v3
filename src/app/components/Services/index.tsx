@@ -19,58 +19,54 @@ const Services = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
         <div className="bg-white rounded-lg shadow-md p-6">
           <SiJavascript fontSize={55} color="#f97316" className="mb-1" />
-          <h3 className="text-lg font-bold mb-2">Desarrollo web</h3>
+          <h3 className="text-lg font-bold mb-2">JavaScript</h3>
           <p className="text-gray-600">
-            Creamos sitios web personalizados y optimizados para dispositivos
-            móviles.
+            Lenguaje de programación esencial para el desarrollo web interactivo
           </p>
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6">
           <SiReact fontSize={55} color="#f97316" className="mb-1" />
 
-          <h3 className="text-lg font-bold mb-2">
-            Desarrollo de aplicaciones móviles
-          </h3>
+          <h3 className="text-lg font-bold mb-2">React</h3>
           <p className="text-gray-600">
-            Desarrollamos aplicaciones iOS y Android que se ajustan a tus
-            necesidades.
+            Desarrollo de interfaces de usuario dinámicas y componentes
+            reutilizables
           </p>
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6">
           <SiTypescript fontSize={55} color="#f97316" className="mb-1" />
-          <h3 className="text-lg font-bold mb-2">Diseño gráfico</h3>
+          <h3 className="text-lg font-bold mb-2">TypeScript</h3>
           <p className="text-gray-600">
-            Creamos identidades visuales atractivas y profesionales para tu
-            marca.
+            Superset de JavaScript que añade tipos estáticos para un desarrollo
+            más robusto
           </p>
         </div>
         {/* Sanity */}
         <div className="bg-white rounded-lg shadow-md p-6">
           <SiSanity fontSize={55} color="#f97316" className="mb-1" />
-          <h3 className="text-lg font-bold mb-2">Diseño gráfico</h3>
+          <h3 className="text-lg font-bold mb-2">Sanity CMS</h3>
           <p className="text-gray-600">
-            Creamos identidades visuales atractivas y profesionales para tu
-            marca.
+            CMS flexible y potente para gestionar contenido de manera eficiente
           </p>
         </div>
         {/* Tailwind Css */}
         <div className="bg-white rounded-lg shadow-md p-6">
           <SiTailwindcss fontSize={55} color="#f97316" className="mb-1" />
-          <h3 className="text-lg font-bold mb-2">Diseño gráfico</h3>
+          <h3 className="text-lg font-bold mb-2">Tailwind Css</h3>
           <p className="text-gray-600">
-            Creamos identidades visuales atractivas y profesionales para tu
-            marca.
+            CSS utilitario que facilita la creación de diseños personalizados y
+            escalables
           </p>
         </div>
         {/* Next.Js */}
         <div className="bg-white rounded-lg shadow-md p-6">
           <SiNextdotjs fontSize={55} color="#f97316" className="mb-1" />
-          <h3 className="text-lg font-bold mb-2">Diseño gráfico</h3>
+          <h3 className="text-lg font-bold mb-2">Next.js</h3>
           <p className="text-gray-600">
-            Creamos identidades visuales atractivas y profesionales para tu
-            marca.
+            Framework de React para aplicaciones web rápidas y optimizadas para
+            SEO
           </p>
         </div>
       </div>
