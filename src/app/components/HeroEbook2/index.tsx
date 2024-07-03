@@ -1,9 +1,6 @@
+import Link from "next/link";
 import React from "react";
-import {
-  PiShoppingBag,
-  PiShoppingCart,
-  PiShoppingCartBold,
-} from "react-icons/pi";
+import { PiShoppingCartBold } from "react-icons/pi";
 
 const Hero = () => {
   return (
@@ -21,9 +18,12 @@ const Hero = () => {
               tecnologías avanzadas!
             </p>
             <div className="pt-4 flex flex-col md:flex-row justify-content-start space-y-4 md:space-y-0 md:space-x-4 ">
-              <button className="flex items-center justify-center gap-2 sm:w-full lg:max-w-36 bg-orange-500  md:text-base lg:text-xl  text-white font-bold py-2 px-4 rounded-full">
+              <Link
+                href="https://ricardootalora.gumroad.com/l/rjdia"
+                className="flex items-center justify-center gap-2 sm:w-full lg:max-w-36 bg-orange-500  md:text-base lg:text-xl  text-white font-bold py-2 px-4 rounded-full"
+              >
                 <PiShoppingCartBold fontSize={20} /> 2 $
-              </button>
+              </Link>
               {/*  <button className="sm:w-full lg:max-w-40 bg-white  border-2 border-orange-500 md:text-base lg:text-xl  text-orange-500 font-bold py-2 px-2 rounded-full">
                 Login
               </button> */}
